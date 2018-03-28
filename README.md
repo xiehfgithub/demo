@@ -38,4 +38,6 @@
 
 ### H5
 
-[简单H5](https://xiehfgithub.github.io/demoShow/H5/miomi/index.html)		
+[简单H5](https://xiehfgithub.github.io/demoShow/H5/miomi/index.html)	
+
+[无法查看简历可点击](http://gfire.top:8080/demo/download/xiehaifeng_FrontEnd_resume.doc)	
