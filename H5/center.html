@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>简单展示常用居中几种情况</title>
+	</head>
+	<body>
+		<!--css3居中--父子高度都不需要知道-->
+<div style="position: relative;height: 100px;width: 100px;overflow:hidden;background: red;margin: 0 auto;color: #333;">
+    <!--定位居中--需要知道子高度-->
+    <div style="background: yellow;width: 80px;height: 80px;overflow:hidden;position: relative;margin: 0 auto;transform: translateY(-50%);top: 50%;">
+        <!--flex盒模型居中--不需要知道高度-->
+        <div style="width: 60px;height: 60px;overflow:hidden;background:blue;margin: 0 auto;margin-top:-30px;top: 50%;position: absolute;left:0;right:0;display: flex;flex-direction: column;justify-content: center;align-items: center;">
+            <!--css伪类居中-->
+            <style >
+                .aaa:after{
+                    content:"center";
+                    display: inline-block;
+                    width:0;
+                    height:100%;
+                    vertical-align:middle;
+                    overflow:hidden;
+                }
+            </style >
+            <div style="width: 40px;height: 40px;position:relative;text-align:center;font-size:0;overflow:hidden;background:purple;" class="aaa">
+                <div style="display: inline-block;width: 20px;height: 20px;vertical-align: middle;background: orange;"></div>
+            </div>
+        </div>
+    </div>
+</div>
+	</body>
+</html>
