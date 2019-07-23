@@ -19,7 +19,7 @@
 仿公司[小程序UI](https://xiehfgithub.github.io/demoShow/vue2x/dist2/index.html)
 
 ### 国际化切换
-[i18n架子](https://xiehfgithub.github.io/demoShow/myAppInternationalization/dist/index.html)
+[i18n架子](https://xiehfgithub.github.io/demoShow/myAppInternationalization/index.html)
 
 \[mint-ui cube-ui vue-router axious jq webpack less  \]
 
