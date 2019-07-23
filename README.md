@@ -20,6 +20,7 @@
 
 ### 国际化切换
 [i18n架子](https://xiehfgithub.github.io/demoShow/myAppInternationalization/dist/index.html)
+
 \[mint-ui cube-ui vue-router axious jq webpack less  \]
 
 ---------------------------------------
